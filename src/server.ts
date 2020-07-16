@@ -90,5 +90,5 @@ redisClient.on('connect', async () => {
 });
 
 redisClient.on('error', (err) => {
-    console.log('Something went wrong ' + err);
+    console.log(`Something went wrong ${err}`);
 });
